@@ -62,3 +62,20 @@
  	background-color: #581515;
  }
 
+ #pix{
+
+ 	width:  200px;
+ 	height: 200px;
+ }
+ #team {
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-around;
+ 	margin-top: 20px;
+ }
+
+p{
+ 	color: white;
+ 	font-size: 16px;
+ }
+

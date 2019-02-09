@@ -1,4 +1,4 @@
-var team= [
+var x = [
 
 {
 
@@ -6,7 +6,7 @@ var team= [
 
 "email":"fran@index.com",
 
-"image": "img/fran.jpg",
+"image": "./img/fran.jpg",
 
 }, {
 
@@ -14,7 +14,7 @@ var team= [
 
 "email":"bill@index.com",
 
-"image": "img/bill.jpg",
+"image": "./img/bill.jpg",
 
 }, {
 
@@ -22,7 +22,7 @@ var team= [
 
 "email":"fritz@index.com",
 
-"image": "img/fritz.jpg",
+"image": "./img/fritz.jpg",
 
 }
 ];
