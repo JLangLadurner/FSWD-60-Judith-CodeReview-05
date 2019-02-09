@@ -1,0 +1,112 @@
+var film_data = [
+
+{
+
+
+"movieName":"Bladerunner",
+
+"genre":"action",
+
+"descr": "One of the best films of 2017",
+
+"actor":"Ryan Gosling, Harrison Ford, Robin Wright",
+
+"year": "2017",
+
+"image": "./img/bladerunner.jpg"
+
+}, {
+
+
+"movieName":"Wonder Woman",
+
+"genre":"action",
+
+"descr": "2nd Best Superhero Movies of all time",
+
+"actor":"Gal Gadot, Chris Pine, Robin Wright",
+
+"year": "2017",
+
+"image": "./img/Wonderwoman.jpg"
+
+}, {
+
+
+"movieName":"Grinch",
+
+"genre":"Kids",
+
+"descr": "The one who stole X-mas or at least tried",
+
+"actor": "Grinch",
+
+"year": "2018",
+
+"image": "./img/grinch.jpg"
+
+},
+{
+
+
+"movieName":"Shrek Final",
+
+"genre":"Kids",
+
+"descr": "What ever they do",
+
+"actor":"the Shreks",
+
+"year": "2017",
+
+"image":"./img/shrek_final.jpg"
+
+},
+{
+
+
+"movieName":"Teen Wolf",
+
+"genre":"comedy",
+
+"descr": "Teen turns Werewolf",
+
+"actor":"Michael J. Fox, James Hampton, Susan Ursitti",
+
+"year": "1985",
+
+"image":"./img/teenwolf.jpg"
+
+},
+{
+
+
+"movieName":"Two Weeks",
+
+"genre":"comedy",
+
+"descr": "Oh Well",
+
+"actor":"Can't remember",
+
+"year": "oi",
+
+"image":"./img/twoweeks.jpg"
+
+},
+{
+
+"movieName":"Harry Potter",
+
+"genre":"Kids",
+
+"descr": "The big Final",
+
+"actor":"Daniel Radcliffe",
+
+"year": "2010",
+
+"image":"./img/HP.jpg",
+
+}
+];
