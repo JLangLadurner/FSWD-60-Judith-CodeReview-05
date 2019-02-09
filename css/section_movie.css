@@ -4,6 +4,20 @@
  body {
  	background-color: #CCC;
  }
+#header {
+	background-color: #581515;
+}
+
+
+
+#headline, .copy {
+	color: #EBEAD6;
+}
+.copy{
+	font-size: 17px;
+	text-align: center;
+}
+
 
  .black {
  	background-color: black;
@@ -44,6 +58,7 @@
  }
 
  footer {
- 	background-color: darkgrey;
+ 	margin-top: 10px;
+ 	background-color: #581515;
  }
 

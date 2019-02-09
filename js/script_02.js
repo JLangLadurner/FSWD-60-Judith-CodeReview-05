@@ -2,10 +2,9 @@
 
 
 	$(document).ready(function(){
-		for (var i=0; i<film_data.length; i++){
 
 			for(i = 0; i < film_data.length; i++) {
-				$("#myfilms").append(`<div class='col-lg-6'>
+				$("#myfilms").append(`<div class='col-lg-6 ${film_data[i].genre}'>
 				<div class="col-lg-6">
 					<img src="${film_data[i].image}" width="250px" height="350px">
 				</div>
@@ -25,7 +24,9 @@
 				</div>
 			</div>`);
 		}
-		}
+
+
+
 
 		
 	});
