@@ -7,7 +7,10 @@
 	
 	<title>my movie page</title>
 
+	<!-- data json file is here -->
+
 	<script type="text/javascript" src="json/data.json"></script>
+	<!-- jquery link is here  -->
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
 	<!-- Latest compiled and minified CSS -->
@@ -63,6 +66,8 @@
 	<!-- navbar end -->
 
 	<div class="container">
+
+		<!-- when sorting - still "all" has to be selected before sorting again -->
 		<div class="row">
 				<div class="btn-group btn-group-justified" role="group" aria-label="...">
 					<div class="btn-group" role="group">
@@ -82,46 +87,25 @@
 		</div><br>
 
 
-	<!-- first film -->
+	<!-- template for film insert from json-->
 	<div class = "container">
-		
-	
 	<div id = "myfilms" class="row black">
-			<div class="col-lg-6 action">
-				<div class="col-lg-5 img_s">
-					<img src="img/avengers.jpg" alt="avengers" width="250px" height="350px">
-				</div>
-				<div class="col-lg-5 col-lg-offset-1 text">
-						<h4>Avengers</h4><br>
-						<p>All time Fun with DC</p><br>
-						<p>all of them</p><br>
-						<p>2017</p><br>
-						<p>action</p>	
-					</div>
-					<div class="col-lg-3 col-lg-offset-1">
-						<i class="glyphicon glyphicon-thumbs-up big round like"></i>
-						<div class= 'theCount'>
-						</div>
-						<input type="hidden" class="hiddenVal" value="0">	
-					</div>
-				</div>
-
+			
 			</div>
-			</div>
-		<!-- first film end -->
 		</div>
+		<!-- template for film insert from json -->
 
 		<!-- footer start -->
 			<footer  id="myFoot" class="footer-wrapper">
-				<div class="container-fliud">
+				<div class="container-fluid">
 					<div class="row">
-						<div id="CF" class="col-lg-6 col-lg-offset-5">
+						<div id="CF" class="col-lg-6 col-lg-offset-5 col-md-4 col-sm-12">
 
 							<img src="img/codefactory-vienna-logo.png" width="270px" height="80px"alt="">
 						</div>
 					</div>
 						<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-12 col-sm-2">
 
 							<p class="copy">&copy; Judith Lang-Ladurner 2019. <br>All rights reserved.</p>
 						</div>
@@ -138,10 +122,13 @@
 
 
 
-	
-		<script src="js/myjs01.js" type="text/javascript"></script>
+	  <!-- main js file -->
 		<script src="js/script_02.js" type="text/javascript"></script>
-		<script src="js/dropdown.js" type="text/javascript"></script>
+
+		<!-- js file for the bottons on top of the page -->
+		<script src="js/sortingButtons.js" type="text/javascript"></script>
+		<!-- <script src="js/likes.js" type="text/javascript"></script>
+		was included in script_02 -->
 
 
 

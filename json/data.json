@@ -13,7 +13,9 @@ var film_data = [
 
 "year": "2017",
 
-"image": "./img/bladerunner.jpg"
+"image": "./img/bladerunner.jpg",
+
+"id": "1"
 
 }, {
 
@@ -28,7 +30,9 @@ var film_data = [
 
 "year": "2017",
 
-"image": "./img/Wonderwoman.jpg"
+"image": "./img/Wonderwoman.jpg",
+
+"id": "2"
 
 }, {
 
@@ -43,7 +47,9 @@ var film_data = [
 
 "year": "2018",
 
-"image": "./img/grinch.jpg"
+"image": "./img/grinch.jpg",
+
+"id": "3"
 
 },
 {
@@ -59,7 +65,9 @@ var film_data = [
 
 "year": "2017",
 
-"image":"./img/shrek_final.jpg"
+"image":"./img/shrek_final.jpg",
+
+"id": "4"
 
 },
 {
@@ -75,7 +83,9 @@ var film_data = [
 
 "year": "1985",
 
-"image":"./img/teenwolf.jpg"
+"image":"./img/teenwolf.jpg",
+
+"id": "5"
 
 },
 {
@@ -91,7 +101,9 @@ var film_data = [
 
 "year": "oi",
 
-"image":"./img/twoweeks.jpg"
+"image":"./img/twoweeks.jpg",
+
+"id": "6"
 
 },
 {
@@ -107,6 +119,25 @@ var film_data = [
 "year": "2010",
 
 "image":"./img/HP.jpg",
+
+"id": "6"
+
+},
+{
+
+"movieName":"Avengers",
+
+"genre":"action",
+
+"descr": "All Time Fun",
+
+"actor":"all of them",
+
+"year": "2017",
+
+"image":"./img/avengers.jpg",
+
+"id": "6"
 
 }
 ];
